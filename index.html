@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda support</title>
+    <style>
+        /* CSS - здесь мы рисуем дизайн */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #00259e; /* Темный фон */
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background-color: #16213e;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            text-align: center;
+            border: 1px solid #0f3460;
+            max-width: 350px;
+        }
+
+        img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #e94560;
+            object-fit: cover;
+        }
+
+        h1 { margin: 15px 0 5px; color: #e94560; }
+
+        p { color: #95a5a6; line-height: 1.6; }
+
+        .links { margin-top: 20px; }
+
+        .btn {
+            display: inline-block;
+            text-decoration: none;
+            background: #e94560;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #ff5e78;
+            transform: scale(1.05);
+        }
+    .links {
+    display: flex;
+    flex-direction: column; /* Ставит кнопки в колонку */
+    gap: 10px;              /* Делает отступ между кнопками */
+    margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWz7fQ2WxRqvJk6ZcPbvyLynsW14aLqPn0YxcPAvcwd4OTQi3rjKygc9JUnu8t08XdD5eSRlkO_GuPLAkfb9cdsAeioHNjMIQyNCtuxkHEKg&s=10" alt="фото">
+        <h1>Misha Telecom</h1>
+        <p>Здраствуйте. Я ремонтирую телефоны компьютеры и ноутбуки. Также я записываю Windows и восстанавливаю прошивку телефона.</p>
+        
+        <div class="links">
+           
+        </div>
+    <div class="links">
+    <a href="https://t.me/pandam_103" class="btn" target="_blank" style="margin-bottom: 10px;">
+        Написать в Telegram
+    </a>
+
+    <a href="https://wa.me/994997735055" class="btn" target="_blank" style="background: #25D366;">
+        Написать в WhatsApp
+    </a>
+</div>
+    </div>
+
+</body>
+</html>
